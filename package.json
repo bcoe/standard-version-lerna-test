@@ -1,10 +1,11 @@
 {
   "name": "standard-version-lerna-test",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "testing behavior of lerna in conjunction with standard-version",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ./scripts/test.sh"
+    "test": "nyc ./scripts/test.sh",
+    "release": "lerna publish && standard-version"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/bcoe/standard-version-lerna-test#readme",
   "devDependencies": {
-    "lerna": "2.0.0-beta.37"
+    "lerna": "2.0.0-beta.37",
+    "standard-version": "^4.0.0"
   }
 }
