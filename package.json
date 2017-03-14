@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc ./scripts/test.sh",
-    "release": "lerna publish && standard-version"
+    "release": "lerna publish --conventional-commits"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/bcoe/standard-version-lerna-test#readme",
   "devDependencies": {
-    "lerna": "2.0.0-beta.37",
-    "standard-version": "^4.0.0"
+    "@bcoe/lerna": "^2.0.0-alpha.0"
   }
 }
