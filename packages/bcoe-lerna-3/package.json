@@ -1,6 +1,6 @@
 {
   "name": "bcoe-lerna-3",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "description": "pacakge with no local dependencies",
   "main": "index.js",
   "scripts": {
