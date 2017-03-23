@@ -4,6 +4,7 @@
   "description": "testing behavior of lerna in conjunction with standard-version",
   "main": "index.js",
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "test": "lerna exec npm run test",
     "release": "lerna publish --conventional-commits"
   },
