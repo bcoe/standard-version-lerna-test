@@ -4,7 +4,7 @@
   "description": "testing behavior of lerna in conjunction with standard-version",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ./scripts/test.sh",
+    "test": "lerna exec npm run test",
     "release": "lerna publish --conventional-commits"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/bcoe/standard-version-lerna-test#readme",
   "devDependencies": {
-    "lerna": "^2.0.0-beta.38-40-g203f7eb"
+    "lerna": "^2.0.0-beta.38-40-g203f7eb",
+    "nyc": "^10.1.2"
   }
 }

@@ -4,7 +4,7 @@
   "description": "package with two local dependencies, one global.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo 'should add tests'"
   },
   "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
