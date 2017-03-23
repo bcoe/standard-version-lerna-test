@@ -1,6 +1,6 @@
 {
   "name": "bcoe-lerna-1",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "package with two local dependencies, one global.",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
   "dependencies": {
-    "bcoe-lerna-2": "^2.1.1",
+    "bcoe-lerna-2": "^2.2.0",
     "bcoe-lerna-3": "^2.0.1",
     "lodash": "^4.17.4"
   }
