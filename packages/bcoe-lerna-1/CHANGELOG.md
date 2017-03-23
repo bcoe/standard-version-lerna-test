@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.4.4"></a>
+## [2.4.4](https://github.com/bcoe/standard-version-lerna-test/compare/bcoe-lerna-1@2.4.3...bcoe-lerna-1@2.4.4) (2017-03-23)
+
 <a name="2.4.3"></a>
 ## [2.4.3](https://github.com/bcoe/standard-version-lerna-test/compare/bcoe-lerna-1@2.4.2...bcoe-lerna-1@2.4.3) (2017-03-23)
 
