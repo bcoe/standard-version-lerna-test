@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "lerna bootstrap",
-    "test": "lerna exec npm run test",
-    "release": "lerna publish --conventional-commits"
+    "test": "nyc lerna exec npm run test",
+    "release": "lerna publish"
   },
   "repository": {
     "type": "git",

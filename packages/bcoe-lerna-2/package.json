@@ -4,11 +4,15 @@
   "description": "package with one local dependency",
   "main": "server.js",
   "scripts": {
-    "test": "echo 'should add tests'"
+    "test": "mocha test.js"
   },
   "author": "Ben Coe <ben@npmjs.com>",
   "license": "ISC",
   "dependencies": {
     "bcoe-lerna-3": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
   }
 }
